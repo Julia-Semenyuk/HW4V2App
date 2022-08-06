@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     
 // MARK: - Private Methods
     private func setupLabel() {
-        redLabel.text = "Red:"
+        redLabel.text = "Red:    "
         redLabel.textColor = .white
         redLabelNumber.text = String(format: "%.2f", redSlider.value)
         redLabelNumber.textColor = .white
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         greenLabelNumber.text = String(format: "%.2f",greenSlider.value)
         greenLabelNumber.textColor = .white
         
-        blueLabel.text = "Blue:"
+        blueLabel.text = "Blue:   "
         blueLabel.textColor = .white
         blueLabelNumber.text = String(format: "%.2f",blueSlider.value)
         blueLabelNumber.textColor = .white
