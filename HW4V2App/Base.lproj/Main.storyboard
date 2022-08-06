@@ -83,7 +83,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="hMQ-i1-oWf">
                                 <rect key="frame" x="173" y="440" width="226" height="31"/>
                                 <connections>
-                                    <action selector="blueSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="mFg-TG-Wmw"/>
+                                    <action selector="blueSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="LzN-Xe-2xa"/>
                                 </connections>
                             </slider>
                         </subviews>
@@ -131,7 +131,7 @@
                     <connections>
                         <outlet property="blueLabel" destination="aTt-Qn-Pzu" id="rUR-xc-jgj"/>
                         <outlet property="blueLabelNumber" destination="mwd-gb-Io3" id="6id-Vc-7rZ"/>
-                        <outlet property="blueSlider" destination="hMQ-i1-oWf" id="RcU-Mc-hKD"/>
+                        <outlet property="blueSlider" destination="hMQ-i1-oWf" id="p3W-Gb-oko"/>
                         <outlet property="colorView" destination="Jq6-LX-LX7" id="d4c-vu-yW0"/>
                         <outlet property="greenLabel" destination="sMM-Pu-lSk" id="3mh-X9-mLj"/>
                         <outlet property="greenLabelNumber" destination="Bcc-ff-ClF" id="l6t-eY-K35"/>

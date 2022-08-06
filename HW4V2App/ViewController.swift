@@ -26,7 +26,6 @@ class ViewController: UIViewController {
     @IBOutlet var blueSlider: UISlider!
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         colorView.layer.cornerRadius = 20
@@ -46,11 +45,13 @@ class ViewController: UIViewController {
         changeColor()
     }
     
-    
+
+
     @IBAction func blueSliderAction() {
         blueLabelNumber.text = String(format: "%.2f",blueSlider.value)
         changeColor()
     }
+    
     
 // MARK: - Private Methods
     private func setupLabel() {
@@ -73,17 +74,17 @@ class ViewController: UIViewController {
     private func setupSlider() {
         redSlider.value = 0
         redSlider.minimumValue = 0
-        redSlider.maximumValue = 100
+        redSlider.maximumValue = 1
         redSlider.minimumTrackTintColor = .red
         
         greenSlider.value = 0
         greenSlider.minimumValue = 0
-        greenSlider.maximumValue = 100
+        greenSlider.maximumValue = 1
         greenSlider.minimumTrackTintColor = .green
         
         blueSlider.value = 0
         blueSlider.minimumValue = 0
-        blueSlider.maximumValue = 100
+        blueSlider.maximumValue = 1
         blueSlider.minimumTrackTintColor = .blue
     }
     
